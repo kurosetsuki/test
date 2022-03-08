@@ -1,6 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 #Menu{
     background: antiquewhite;
+    border: 1px solid red;
+    width: 1000px;
+    height: 100px;
+    font-size: 0px;
+
 }
 .MenuItem{
-    border: 3px solid red;
+    padding: 20px;
+    display: inline-block;
+    float: left;
+    font-size: 50px;
+    vertical-align: middle;
 }
