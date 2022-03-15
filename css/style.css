@@ -21,3 +21,11 @@
 .classB li{
     background: azure;
 }
+
+/*.classA li:nth-child(odd){*/
+/*    font-size: 50px;*/
+/*}*/
+
+/*.classB li:first-child{*/
+/*    font-size: 50px;*/
+/*}*/
