@@ -1,20 +1,23 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    font-size: 30px;
 }
 
-#Menu{
+#Class{
     background: antiquewhite;
-    border: 1px solid red;
-    width: 1000px;
-    height: 100px;
-    font-size: 0px;
-
 }
-.MenuItem{
-    padding: 20px;
-    display: inline-block;
-    float: left;
-    font-size: 50px;
-    vertical-align: middle;
+
+.classA{
+    background: aquamarine;
+}
+
+.classA li{
+    background: cadetblue;
+}
+
+.classB{
+    background: bisque;
+}
+
+.classB li{
+    background: azure;
 }
