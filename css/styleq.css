@@ -6,4 +6,29 @@ h1{
 .PageInfo > p{
     text-align:center;
     margin: 0px;
+    color: dimgrey;
+}
+
+#Table{
+    display: block;
+    list-style: none;
+}
+
+#Table > li > div:first-child{
+    display: inline-block;
+    text-align:center;
+    width: 300px;
+}
+
+#Table > li> div:last-child{
+    display: inline-block;
+    width: 600px;
+}
+
+#Table > li:nth-child(odd){
+    background-color: #11b56b;
+}
+
+#tableT{
+    background-color: aquamarine !important;
 }
